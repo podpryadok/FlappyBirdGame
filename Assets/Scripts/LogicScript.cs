@@ -17,6 +17,11 @@ public class LogicScript : MonoBehaviour
         {
             restartButton.Select();
         }
+
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            Application.Quit();
+        }
     }
 
     [ContextMenu("Increase Score")]
